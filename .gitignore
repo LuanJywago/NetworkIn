@@ -1,0 +1,8 @@
+# Ignorar arquivos de ambiente virtual, cache e dados sensíveis
+.env
+__pycache__/
+*.pyc
+venv/
+.vscode/
+data/raw/*
+!data/raw/.gitkeep
